@@ -54,7 +54,7 @@ moon.onclick = function(){
     if(document.body.classList.contains('dark-theme')){
         moon.classList.remove('bx-moon');
         moon.classList.add('bx-sun');
-        document.querySelector('.h-img img').src = '/landing/assets/img/upp.png'; // Change h-img source to 'upp.png'
+        document.querySelector('.h-img img').src = 'assets/img/upp.png'; // Change h-img source to 'upp.png'
         document.querySelector('.h-img img').style.filter = 'invert(10%)'; // Apply image filter to invert the colors
         document.querySelector('.h-img img').style.filter = 'brightness(1)'; // Apply image filter to reduce brightness
         document.querySelector('button.subnavbtn').style= ''; // Change button background color
@@ -62,7 +62,7 @@ moon.onclick = function(){
     else{
         moon.classList.remove('bx-sun');
         moon.classList.add('bx-moon');
-        document.querySelector('.h-img img').src = '/landing/assets/img/homepic (2).png'; // Change h-img source back to 'homepic (2).png'
+        document.querySelector('.h-img img').src = 'assets/img/homepic (2).png'; // Change h-img source back to 'homepic (2).png'
         document.querySelector('.h-img img').style.filter = 'none'; // Remove image filter
         document.querySelector('button.subnavbtn').style= 'white'; // Change button background color
       
