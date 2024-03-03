@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TSA3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel = "stylesheet" type="text/css" href="./assets/css/calc.css">
+		
+</head>
+    <body background="./assets/img/ggg.jpg">
+        <div align ="center"> <img src="./assets/img/mav.png"></div>	
+        
+        <div id="container">
+            <form name = "calc">
+                <input type="text" id="num" value="" name = "answer"><br>
+            <div class="row"style="margin-top: 20px; ">
+        
+                <table>
+                    <tr>
+                    <td>
+                        <button class = "del" onClick="clear1()">C</button>
+                    </td>
+                    <td>
+                        <input type="button"  value="%" onClick="doMath('%')">
+                    </td>
+                    <td>
+                        <input type="button"  value="/" onClick="doMath('/')">
+                    </td>
+                    <td>
+                        <input type="button"  value="x" onClick="doMath('*')">
+                    </td>
+                    </tr>
+                        
+                    <tr>
+                    <td>
+                        <input type="button"  value="7" onClick="doMath('7')">
+                    </td>
+                    <td>
+                        <input type="button"  value="8" onClick="doMath('8')">
+                    </td>
+                    <td>
+                        <input type="button"  value="9" onClick="doMath('9')">
+                    </td>
+                    <td>	
+                        <input type="button"  value="-" onClick="doMath('-')">
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td>
+                        <input type="button"  value="4" onClick="doMath('4')">
+                    </td>
+                    <td>
+                        <input type="button"  value="5" onClick="doMath('5')">
+                    </td>
+                    <td>
+                        <input type="button"  value="6" onClick="doMath('6')">
+                    </td>
+                    <td>
+                        <input type="button"  value="+" onClick="doMath('+')">
+                    </td>
+                    </tr>
+                        
+                    <tr>
+                    <td>
+                        <input type="button"  value="1" onClick="doMath('1')">
+                    </td>
+                    <td>
+                        <input type="button"  value="2" onClick="doMath('2')">
+                    </td>
+                    <td>
+                        <input type="button"  value="3" onClick="doMath('3')">
+                    
+                    <td rowspan="6">
+                        <input type="button"   style="height: 155px;" value="=" onClick="equal()">
+                    </td>
+                    </td>
+                    
+                    <tr>
+                    <td colspan="2">
+                        <input type="button"  style="width: 145px;" value="0" onClick="doMath('0')">
+                    </td>
+                    <td>
+                        <input type="button"  value="." onClick="doMath('.')">
+                    </td>
+                    </tr>
+            </form>
+        </div>
+        <script src = "./assets/js/calc.js"></script>
+    </body>
+    </html>
+   

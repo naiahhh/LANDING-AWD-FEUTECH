@@ -1,0 +1,71 @@
+
+body {
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: 10%;
+    }
+
+
+img{
+    width: 15%;
+    height: 230%;
+    display: block;
+ 
+}
+
+#container {
+    background:#060420;
+    padding: 25px;
+    width: 300px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+
+#num {
+    width: 289px;
+    height: 80px;
+    font-weight:bold;
+    font-size:40px;
+    background: rgb(188, 203, 217);
+}
+
+input[type=button]{
+    display: grid;
+    height:75px;
+    width: 70px;
+    cursor: pointer;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight:bold;
+    font-size:20px;	
+}
+
+.del{
+    display: grid;
+    height:75px;
+    width: 70px;
+    cursor: pointer;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:20px;
+    align-content: center;
+}
+
+input[type=button]:hover{
+    background-color: #060420;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+    
+.del:hover {
+    background-color: #060420;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+
